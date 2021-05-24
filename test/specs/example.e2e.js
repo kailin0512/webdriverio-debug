@@ -1,6 +1,5 @@
 describe('My Login application', () => {
     it('should login with valid credentials', () => {
-        browser.reloadSession();
         browser.url(`https://the-internet.herokuapp.com/login`);
 
         $('#username').setValue('tomsmith');
