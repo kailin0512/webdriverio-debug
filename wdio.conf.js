@@ -120,8 +120,9 @@ exports.config = {
                 enable: true,
                 type: 'html',
                 logDir: __dirname + '/coverage',
-                include: [/.*298279967.js/],
-                exclude: [/.*jquery-1.11.3.min.js/],
+                // include: [/.*298279967.js/, /.*foundation.*/, /.*jquery-ui.js/],
+                // exclude: [/.*jquery-1.11.3.min.js/],
+                // exclude: [/.*298279967.js/],
             }
         }]
     ],
