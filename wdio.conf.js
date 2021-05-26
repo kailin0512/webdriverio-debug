@@ -73,7 +73,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'error',
+    logLevel: 'info',
     //
     // Set specific log levels per logger
     // loggers:
@@ -119,7 +119,9 @@ exports.config = {
             coverageReporter: {
                 enable: true,
                 type: 'html',
-                logDir: __dirname + '/coverage'
+                logDir: __dirname + '/coverage',
+                include: [/.*298279967.js/],
+                exclude: [/.*jquery-1.11.3.min.js/],
             }
         }]
     ],
