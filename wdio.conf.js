@@ -115,15 +115,15 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: [
         'selenium-standalone',
-        ['devtools', {
-            coverageReporter: {
-                enable: true,
-                type: 'html',
-                logDir: __dirname + '/coverage',
-                // include: [/.*298279967.js/, /.*foundation.*/, /.*jquery-ui.js/],
-                // exclude: [/.*jquery-1.11.3.min.js/],
-                // exclude: [/.*298279967.js/],
-            }
+        ['devtools', 
+        {
+            // coverageReporter: {
+            //     enable: true,
+            //     type: 'html',
+            //     logDir: __dirname + '/coverage',
+            //     // exclude: [/.*jquery-1.11.3.min.js/],
+            //     exclude: [/.*298279967.js/],
+            // }
         }]
     ],
     
