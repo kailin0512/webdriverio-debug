@@ -117,13 +117,13 @@ exports.config = {
         'selenium-standalone',
         ['devtools', 
         {
-            // coverageReporter: {
-            //     enable: true,
-            //     type: 'html',
-            //     logDir: __dirname + '/coverage',
-            //     // exclude: [/.*jquery-1.11.3.min.js/],
-            //     exclude: [/.*298279967.js/],
-            // }
+            coverageReporter: {
+                enable: true,
+                type: 'html',
+                logDir: __dirname + '/coverage',
+                // exclude: [/.*jquery-1.11.3.min.js/],
+                exclude: [/.*298279967.js/],
+            }
         }]
     ],
     
