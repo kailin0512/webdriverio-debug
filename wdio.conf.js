@@ -114,17 +114,17 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: [
-        'selenium-standalone',
-        ['devtools', 
-        {
-            coverageReporter: {
-                enable: true,
-                type: 'html',
-                logDir: __dirname + '/coverage',
-                // exclude: [/.*jquery-1.11.3.min.js/],
-                exclude: [/.*298279967.js/],
-            }
-        }]
+        'selenium-standalone'
+        // ['devtools', 
+        // {
+        //     coverageReporter: {
+        //         enable: true,
+        //         type: 'html',
+        //         logDir: __dirname + '/coverage',
+        //         // exclude: [/.*jquery-1.11.3.min.js/],
+        //         exclude: [/.*298279967.js/],
+        //     }
+        // }]
     ],
     
     // Framework you want to run your specs with.

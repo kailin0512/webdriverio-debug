@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kailin0512/webdriverio-debug#readme",
   "devDependencies": {
+    "@testing-library/webdriverio": "^3.0.4",
     "@wdio/cli": "^7.6.0",
     "@wdio/devtools-service": "^7.6.0",
     "@wdio/local-runner": "^7.6.0",
